@@ -137,6 +137,13 @@ html {
 	text-align: center;
 	margin-top:.5em;
 }
+#twitterwrapper {
+	height: 80%;
+	width: 50%;
+	margin:5% auto;
+	position: relative;
+	z-index: 111;
+}
 .text {
 	font-size: 1em;
 	font-style: normal;
@@ -237,16 +244,15 @@ div.videoWrapper {
 	position: relative;
 	padding-bottom: 65%; /* 16:9 */
 	width: 100%;
-	margin-top: 3em;
+	height: 100%;
 }
 div.videoWrapper iframe {
-	
-	position: absolute;
-	top: 0;
-	left: 0;
 	width: 100%;
-	height: 90%;
-	margin-top: 3em;
+	height: 6em;
+}
+.twitter-timeline {
+	width: 100%;
+	height: 600px;
 }
 .rodderImages{
 	margin-top: 1.5em;
