@@ -242,13 +242,16 @@ table.navbar{
 }
 div.videoWrapper {
 	position: relative;
-	padding-bottom: 65%; /* 16:9 */
-	width: 100%;
-	height: 100%;
+	padding-bottom: 56.25%; /* 16:9 */
+	padding-top: 25px;
+	height: 0;
 }
 div.videoWrapper iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
 	width: 100%;
-	height: 6em;
+	height: 100%;
 }
 .twitter-timeline {
 	width: 100%;
@@ -282,11 +285,6 @@ div.videoWrapper iframe {
 	table.navbar{
 		width: 75%;
 		margin-left: 12.5%;
-	}
-	div.videoWrapper {
-		float: left;
-		padding-bottom: 30%; /* 16:9 */
-		width: 50%;
 	}
 }
 @media (min-width: 1025px) {
